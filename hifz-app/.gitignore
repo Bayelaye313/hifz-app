@@ -1,0 +1,14 @@
+# Clé API et fichiers de travail de tools/generate_all_tafsir.py
+.env
+tools/.tafsir_cache/
+tools/temp_tafsir_progress.json
+tools/rub_metadata.json
+data/tafsir.js.bak
+__pycache__/
+
+# Prompts régénérables par tools/tafsir_local.mjs
+tools/prompts/
+tools/generation.log
+TAFSIR/*.pdf
+*.pdf*.pdf
+TAFSIR/

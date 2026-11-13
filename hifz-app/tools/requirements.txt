@@ -1,0 +1,5 @@
+# Dépendances de tools/generate_all_tafsir.py
+anthropic>=1.13
+pymupdf>=1.24
+python-dotenv>=1.0
+pillow>=10.0
