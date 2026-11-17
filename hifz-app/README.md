@@ -3,6 +3,10 @@
 Application web locale, sans installation : **double-cliquez sur `index.html`** (Chrome, Edge ou Firefox).
 La progression est sauvegardée automatiquement dans le navigateur (localStorage). Pensez à exporter une copie de temps en temps (Réglages → Exporter).
 
+## Déploiement sur Netlify
+
+Le fichier `netlify.toml` à la racine du dépôt configure Netlify pour publier `hifz-app/`, qui contient `index.html` et les ressources statiques. Aucun build ni installation de dépendances n'est nécessaire.
+
 - Texte Uthmani, pagination Madani (604 p.) et découpage des 240 Rub' : intégrés dans `data/quran-data.js` (fonctionne hors-ligne).
 - Traduction française (Muhammad Hamidullah) : affichée en cliquant sur un verset, intégrée dans `data/quran-fr.js` (hors-ligne, générée par `node tools/build-translation.mjs`).
 - Audio verset par verset : EveryAyah.com (connexion internet requise).
